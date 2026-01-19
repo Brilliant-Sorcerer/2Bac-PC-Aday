@@ -11,8 +11,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- شريط التنقل الذكي -->
-    <div class="navigation">
+    <!-- شريط التنقل الذكي للشاشات الكبيرة -->
+    <div class="navigation desktop-nav">
+        <ul>
+            <li class="list active">
+                <a href="#home">
+                    <span class="icon"><i class="fas fa-home"></i></span>
+                    <span class="text">الرئيسية</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#countdown">
+                    <span class="icon"><i class="fas fa-clock"></i></span>
+                    <span class="text">العد التنازلي</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#students">
+                    <span class="icon"><i class="fas fa-users"></i></span>
+                    <span class="text">الطلاب</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#grades">
+                    <span class="icon"><i class="fas fa-chart-line"></i></span>
+                    <span class="text">المعدلات</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#contact">
+                    <span class="icon"><i class="fas fa-info-circle"></i></span>
+                    <span class="text">معلومات</span>
+                </a>
+            </li>
+            <div class="indicator"></div>
+        </ul>
+    </div>
+
+    <!-- شريط التنقل للجوال -->
+    <div class="navigation mobile-nav hidden">
         <ul>
             <li class="list active">
                 <a href="#home">
@@ -383,6 +420,12 @@
             </div>
         </section>
     </div>
+
+    <script src="script.js"></script>
+    <!-- زر القائمة للجوال -->
+    <button class="menu-toggle" id="menuToggle" aria-label="قائمة التنقل">
+        <i class="fas fa-bars" id="menuIcon"></i>
+    </button>
 
     <script src="script.js"></script>
 </body>
