@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فصلنا الدراسي - موقع طلابي متكامل</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- شريط التنقل الذكي -->
+    <div class="navigation">
+        <ul>
+            <li class="list active">
+                <a href="#home">
+                    <span class="icon"><i class="fas fa-home"></i></span>
+                    <span class="text">الرئيسية</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#countdown">
+                    <span class="icon"><i class="fas fa-clock"></i></span>
+                    <span class="text">العد التنازلي</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#students">
+                    <span class="icon"><i class="fas fa-users"></i></span>
+                    <span class="text">الطلاب</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#grades">
+                    <span class="icon"><i class="fas fa-chart-line"></i></span>
+                    <span class="text">المعدلات</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#contact">
+                    <span class="icon"><i class="fas fa-info-circle"></i></span>
+                    <span class="text">معلومات</span>
+                </a>
+            </li>
+            <div class="indicator"></div>
+        </ul>
+    </div>
+
+    <!-- المحتوى الرئيسي -->
+    <div class="content">
+        <!-- الصفحة 1: الرئيسية -->
+        <section id="home" class="page active-page">
+            <div class="hero">
+                <h1>مرحباً بكم في <span class="highlight">موقع فصلنا</span></h1>
+                <p class="tagline">منصة طلابية متكاملة للتعاون والتفوق الدراسي</p>
+                <div class="welcome-box">
+                    <p>أهلاً وسهلاً بكم زملائي الأعزاء، في هذا الموقع الذي صممناه ليكون مساحة تعاونية تجمعنا جميعاً، نساعد فيه بعضنا البعض للوصول إلى أعلى درجات التفوق والتميز.</p>
+                </div>
+                
+                <div class="goals-container">
+                    <h2><i class="fas fa-bullseye"></i> أهداف الموقع</h2>
+                    <div class="goals-grid">
+                        <div class="goal-card">
+                            <i class="fas fa-handshake"></i>
+                            <h3>التعاون الدراسي</h3>
+                            <p>خلق بيئة تعاونية بين طلاب الفصل لتبادل المعرفة والخبرات</p>
+                        </div>
+                        <div class="goal-card">
+                            <i class="fas fa-chart-line"></i>
+                            <h3>متابعة التقدم</h3>
+                            <p>متابعة التقدم الدراسي والتحضير للامتحان الوطني</p>
+                        </div>
+                        <div class="goal-card">
+                            <i class="fas fa-calculator"></i>
+                            <h3>حساب المعدلات</h3>
+                            <p>متابعة معدلات الطلاب وتحديد الأهداف الدراسية</p>
+                        </div>
+                        <div class="goal-card">
+                            <i class="fas fa-users"></i>
+                            <h3>التواصل المستمر</h3>
+                            <p>تعزيز التواصل بين طلاب الفصل خارج أوقات الدراسة</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="features">
+                    <h2><i class="fas fa-star"></i> مميزات الموقع</h2>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> عداد تنازلي للامتحان الوطني</li>
+                        <li><i class="fas fa-check-circle"></i> تعريف بطلاب الفصل ووسائل تواصلهم</li>
+                        <li><i class="fas fa-check-circle"></i> عرض معدلات الطلاب الدراسية</li>
+                        <li><i class="fas fa-check-circle"></i> تصميم تفاعلي سهل الاستخدام</li>
+                        <li><i class="fas fa-check-circle"></i> متوافق مع جميع الأجهزة</li>
+                    </ul>
+                </div>
+                
+                <div class="institution-section">
+                    <h2><i class="fas fa-school"></i> المؤسسة التعليمية</h2>
+                    <div class="institution-card">
+                        <div class="institution-logo">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="institution-info">
+                            <h3>الثانوية التأهيلية أداي </h3>
+                            <p>مؤسسة تعليمية تسعى لتخريج جيل متميز قادر على مواكبة متطلبات العصر</p>
+                            <div class="institution-details">
+                                <p><i class="fas fa-map-marker-alt"></i> العنوان: أداي كلميم</p>
+                                <p><i class="fas fa-phone"></i> فيسبوك: الثانوية التأهيلية أداي - مديرية كلميم</p>
+                                <p><i class="fas fa-envelope"></i> البريد الإلكتروني: ???</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- الصفحة 2: العد التنازلي -->
+        <section id="countdown" class="page">
+            <div class="countdown-container">
+                <h1><i class="fas fa-clock"></i> العد التنازلي للامتحان الوطني</h1>
+                <p class="subtitle">الوقت المتبقي للامتحان الوطني لهذا العام الدراسي</p>
+                
+                <div class="countdown-display">
+                    <div class="countdown-box">
+                        <div class="number" id="days">00</div>
+                        <div class="label">أيام</div>
+                    </div>
+                    <div class="countdown-separator">:</div>
+                    <div class="countdown-box">
+                        <div class="number" id="hours">00</div>
+                        <div class="label">ساعات</div>
+                    </div>
+                    <div class="countdown-separator">:</div>
+                    <div class="countdown-box">
+                        <div class="number" id="minutes">00</div>
+                        <div class="label">دقائق</div>
+                    </div>
+                    <div class="countdown-separator">:</div>
+                    <div class="countdown-box">
+                        <div class="number" id="seconds">00</div>
+                        <div class="label">ثواني</div>
+                    </div>
+                </div>
+                
+                <div class="motivation">
+                    <h3><i class="fas fa-lightbulb"></i> نصائح للاستعداد الجيد</h3>
+                    <div class="tips">
+                        <div class="tip">
+                            <i class="fas fa-book-open"></i>
+                            <p>ضع خطة دراسية منظمة تغطي جميع المواد</p>
+                        </div>
+                        <div class="tip">
+                            <i class="fas fa-brain"></i>
+                            <p>راجع الدروس أولاً بأول ولا تؤجل المراجعة</p>
+                        </div>
+                        <div class="tip">
+                            <i class="fas fa-bed"></i>
+                            <p>احصل على قسط كافٍ من النوم قبل الامتحان</p>
+                        </div>
+                        <div class="tip">
+                            <i class="fas fa-heart"></i>
+                            <p>حافظ على هدوئك وثقتك بنفسك أثناء الامتحان</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="exam-date">
+                    <p><i class="fas fa-calendar-alt"></i> تاريخ الامتحان الوطني: <strong>4 يونيو 2026</strong></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- الصفحة 3: تعريف الطلاب -->
+        <section id="students" class="page">
+            <div class="students-container">
+                <h1><i class="fas fa-users"></i> طلاب فصلنا</h1>
+                <p class="subtitle">تعرف على زملائك في الفصل ووسائل التواصل معهم</p>
+                
+                <div class="students-grid">
+                    <!-- سيتم إضافة الطلاب ديناميكياً بواسطة JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- الصفحة 4: المعدلات -->
+        <section id="grades" class="page">
+            <div class="grades-container">
+                <h1><i class="fas fa-chart-line"></i> معدلات طلاب الفصل</h1>
+                <p class="subtitle">متابعة المعدلات الدراسية لطلاب الفصل</p>
+                
+                <div class="top-students">
+                    <h3><i class="fas fa-trophy"></i> المتصدرون في الفصل</h3>
+                    <div class="top-three">
+                        <div class="top-student first-place">
+                            <div class="rank">🥇</div>
+                            <div class="top-avatar">
+                                <span id="firstLetter1">ح</span>
+                            </div>
+                            <div class="top-info">
+                                <h4 id="top1Name">الحسان عادل</h4>
+                                <p class="top-average" id="top1Average">16.75</p>
+                                <p class="top-position">المركز الأول</p>
+                            </div>
+                        </div>
+                        
+                        <div class="top-student second-place">
+                            <div class="rank">🥈</div>
+                            <div class="top-avatar">
+                                <span id="firstLetter2">ك</span>
+                            </div>
+                            <div class="top-info">
+                                <h4 id="top2Name">كنبوش لحسن</h4>
+                                <p class="top-average" id="top2Average">15.50</p>
+                                <p class="top-position">المركز الثاني</p>
+                            </div>
+                        </div>
+                        
+                        <div class="top-student third-place">
+                            <div class="rank">🥉</div>
+                            <div class="top-avatar">
+                                <span id="firstLetter3">إ</span>
+                            </div>
+                            <div class="top-info">
+                                <h4 id="top3Name">إغير أمنة</h4>
+                                <p class="top-average" id="top3Average">15.20</p>
+                                <p class="top-position">المركز الثالث</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="students-grades">
+                    <div class="grades-table-container">
+                        <table class="grades-table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>اسم الطالب</th>
+                                    <th>المعدل الحالي</th>
+                                    <th>الدرجة المطلوبة في الوطني</th>
+                                    <th>حالة النجاح</th>
+                                </tr>
+                            </thead>
+                            <tbody id="gradesTableBody">
+                                <!-- سيتم ملء الجدول ديناميكياً -->
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="grades-stats">
+                        <div class="stat-card">
+                            <i class="fas fa-user-graduate"></i>
+                            <div class="stat-value" id="totalStudents">13</div>
+                            <div class="stat-label">عدد الطلاب</div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-chart-bar"></i>
+                            <div class="stat-value" id="classAverage">12.35</div>
+                            <div class="stat-label">معدل الفصل</div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-trophy"></i>
+                            <div class="stat-value" id="highestAverage">16.75</div>
+                            <div class="stat-label">أعلى معدل</div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-bullseye"></i>
+                            <div class="stat-value" id="successRate">85%</div>
+                            <div class="stat-label">نسبة النجاح</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="notes-section">
+                    <h3><i class="fas fa-sticky-note"></i> ملاحظات عامة</h3>
+                    <div class="notes">
+                        <p>• المعدلات قابلة للتحديث حسب نتائج الاختبارات القادمة</p>
+                        <p>• الدرجة المطلوبة في الوطني تحسب بناءً على المعدل الحالي وافتراض أن وزن الوطني 50%</p>
+                        <p>• الحالة "ناجح" تعني أن المعدل الحالي ≥ 10 من 20</p>
+                        <p>• الحالة "بحاجة تحسين" تعني أن المعدل الحالي بين 8 و 10</p>
+                        <p>• الحالة "بحاجة جهد" تعني أن المعدل الحالي أقل من 8</p>
+                    </div>
+                </div>
+                
+                <div class="tips-section">
+                    <h3><i class="fas fa-lightbulb"></i> نصائح لتحسين المعدل</h3>
+                    <div class="improvement-tips">
+                        <div class="tip-card">
+                            <i class="fas fa-book"></i>
+                            <h4>المراجعة اليومية</h4>
+                            <p>خصص وقتاً يومياً لمراجعة الدروس الجديدة</p>
+                        </div>
+                        <div class="tip-card">
+                            <i class="fas fa-question-circle"></i>
+                            <h4>حل التمارين</h4>
+                            <p>حل أكبر عدد ممكن من التمارين والأسئلة السابقة</p>
+                        </div>
+                        <div class="tip-card">
+                            <i class="fas fa-users"></i>
+                            <h4>المجموعات الدراسية</h4>
+                            <p>انضم لمجموعة دراسة لتبادل المعرفة</p>
+                        </div>
+                        <div class="tip-card">
+                            <i class="fas fa-clock"></i>
+                            <h4>التخطيط الجيد</h4>
+                            <p>ضع جدولاً دراسياً واقعياً والتزم به</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- الصفحة 5: معلومات إضافية -->
+        <section id="contact" class="page">
+            <div class="contact-container">
+                <h1><i class="fas fa-info-circle"></i> معلومات عنا</h1>
+                <div class="about-section">
+                    <h2>عن موقع فصلنا</h2>
+                    <p>هذا الموقع تم تطويره لطلاب الفصل الدراسي بهدف تعزيز التواصل والتعاون بين الطلاب، وتوفير منصة تفاعلية تساعدنا على تحقيق أهدافنا الدراسية والتحضير الجيد للامتحان الوطني.</p>
+                    
+                    <div class="institution-details-page">
+                        <h3><i class="fas fa-school"></i> معلومات المؤسسة التعليمية</h3>
+                        <div class="institution-card-page">
+                            <h4>ثانوية ابن خلدون التربوية</h4>
+                            <div class="institution-info-page">
+                                <p><i class="fas fa-map-marker-alt"></i> <strong>العنوان:</strong> أداي كلميم</p>
+                                <p><i class="fas fa-phone"></i> <strong>فيسبوك:</strong>الثانوية التأهيلية أداي - مديرية كلميم </p>
+                                <p><i class="fas fa-envelope"></i> <strong>البريد الإلكتروني:</strong> ???</p>
+                                <p><i class="fas fa-globe"></i> <strong>الموقع الإلكتروني:</strong> ???</p>
+                                <p><i class="fas fa-user-tie"></i> <strong>المدير:</strong> الأستاذ محمد أوعليوا</p>
+                                <p><i class="fas fa-calendar-alt"></i> <strong>سنة التأسيس:</strong> 2024</p>
+                            </div>
+                            <div class="institution-mission">
+                                <h5><i class="fas fa-bullseye"></i> رسالة المؤسسة</h5>
+                                <p>نحن في ثانوية ابن خلدون التربوية نسعى لتقديم تعليم متميز يواكب متطلبات العصر، ونعمل على تنمية مهارات الطلاب العلمية والعملية، وإعداد جيل واعٍ قادر على المساهمة في بناء المجتمع.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="developers">
+                        <h3><i class="fas fa-code"></i> فريق التطوير</h3>
+                        <p>تم تطوير الموقع بواسطة Web Devlo</p>
+                        <div class="dev-team">
+                            <div class="dev-member">
+                                <i class="fas fa-user"></i>
+                                <p>فريق الواجهة الأمامية</p>
+                            </div>
+                            <div class="dev-member">
+                                <i class="fas fa-user"></i>
+                                <p>فريق جمع البيانات</p>
+                            </div>
+                            <div class="dev-member">
+                                <i class="fas fa-user"></i>
+                                <p>فريق التصميم</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="rules">
+                        <h3><i class="fas fa-clipboard-list"></i> قواعد استخدام الموقع</h3>
+                        <ul>
+                            <li>الالتزام بآداب الحوار والمناقشة</li>
+                            <li>عدم الإساءة لأي من الزملاء</li>
+                            <li>المساهمة الإيجابية في تطوير المحتوى</li>
+                            <li>مساعدة الزملاء في المواد الدراسية</li>
+                            <li>الحرص على دقة المعلومات المدخلة</li>
+                            <li>احترام خصوصية الآخرين</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="contact-details">
+                        <h3><i class="fas fa-envelope"></i> للتواصل معنا</h3>
+                        <p>لأي استفسارات أو مقترحات لتطوير الموقع، يمكنكم التواصل معنا عبر:</p>
+                        <div class="contact-options">
+                            <a href="#" class="contact-link"><i class="fab fa-instagram"></i> صفحتنا على الإنستغرام</a>
+                            <a href="#" class="contact-link"><i class="fas fa-envelope"></i> البريد الإلكتروني</a>
+                            <a href="#" class="contact-link"><i class="fab fa-whatsapp"></i> +212 669-214768</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
