@@ -4,105 +4,105 @@ const students = [
         id: 1, 
         name: "أقدور عبدالرحمان", 
         number: 1, 
-        instagram: "@akdour_rahman", 
-        average: 14.25,
-        requiredGrade: 5.50
+        instagram: "@abdearahman_oukadour", 
+        average: 12.85,
+        requiredGrade: 7.50
     },
     { 
         id: 2, 
         name: "اكناو صالح", 
         number: 2, 
-        instagram: "@aknaou_saleh", 
-        average: 12.75,
-        requiredGrade: 7.25
+        instagram: "@_salah_ag", 
+        average: 13.35,
+        requiredGrade: 6.25
     },
     { 
         id: 3, 
         name: "كنبوش لحسن", 
         number: 3, 
-        instagram: "@kenbouch_lahcen", 
+        instagram: "@kanbouch_lahcen", 
         average: 15.50,
-        requiredGrade: 4.50
+        requiredGrade: 6.26
     },
     { 
         id: 4, 
         name: "بوالزيت ياسين", 
         number: 4, 
         instagram: "@boualzit_yassin", 
-        average: 11.00,
-        requiredGrade: 9.00
+        average: 12.88,
+        requiredGrade: 7.67
     },
     { 
         id: 5, 
         name: "الحسان عادل", 
         number: 5, 
-        instagram: "@alhassan_adel", 
-        average: 16.75,
-        requiredGrade: 3.25
+        instagram: "@adiloulhassane", 
+        average: 12.75,
+        requiredGrade: 8.25
     },
     { 
         id: 6, 
         name: "بوبلي كوثر", 
         number: 6, 
         instagram: "@boubley_kawthar", 
-        average: 13.80,
-        requiredGrade: 6.20
+        average: 16.00,
+        requiredGrade: 4.20
     },
     { 
         id: 7, 
         name: "بوزيت خديجة", 
         number: 7, 
-        instagram: "@bouzit_khadija", 
-        average: 14.90,
-        requiredGrade: 5.10
+        instagram: "@khv.vvdija", 
+        average: 16.70,
+        requiredGrade: 3.78
     },
     { 
         id: 8, 
         name: "اكرام خديجة", 
         number: 8, 
-        instagram: "@ikram_khadija", 
-        average: 10.25,
-        requiredGrade: 9.75
+        instagram: "@khadija.agrame", 
+        average: 16.82,
+        requiredGrade: 3.75
     },
     { 
         id: 9, 
         name: "أزيام عبد المالك", 
         number: 9, 
-        instagram: "@aziam_abdmalek", 
-        average: 12.30,
-        requiredGrade: 7.70
+        instagram: "@abdeaziame", 
+        average: 16.78,
+        requiredGrade: 3.70
     },
     { 
         id: 10, 
         name: "إدبها أيوب", 
         number: 10, 
-        instagram: "@idbha_ayoub", 
-        average: 9.50,
-        requiredGrade: 10.50
+        instagram: "@ayoub_idbaha", 
+        average: 17.50,
+        requiredGrade: 3.50
     },
     { 
         id: 11, 
         name: "أضرضور زهير", 
         number: 11, 
-        instagram: "@adradour_zouhair", 
+        instagram: "@zou_hair_17", 
         average: 13.45,
-        requiredGrade: 6.55
+        requiredGrade: 7.55
     },
     { 
         id: 12, 
         name: "بوهو مصطفي", 
         number: 12, 
-        instagram: "@bouhou_mustapha", 
-        average: 11.80,
-        requiredGrade: 8.20
+        instagram: "@musvvxha", 
+        average: 14.23,
+        requiredGrade: 5.20
     },
     { 
         id: 13, 
         name: "إغير أمنة", 
         number: 13, 
-        instagram: "@ighir_amina", 
-        average: 15.20,
-        requiredGrade: 4.80
+        instagram: "@ighir.amina", 
+        average: 16.76,
+        requiredGrade: 3.80
     }
 ];
 
